@@ -1,0 +1,267 @@
+html {
+    /*background: rgba(0, 102, 255, 1);
+    background: -moz-linear-gradient(left, rgba(0, 102, 255, 1) 0%, rgba(3, 39, 219, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 102, 255, 1)), color-stop(100%, rgba(3, 39, 219, 1)));
+    background: -webkit-linear-gradient(left, rgba(0, 102, 255, 1) 0%, rgba(3, 39, 219, 1) 100%);
+    background: -o-linear-gradient(left, rgba(0, 102, 255, 1) 0%, rgba(3, 39, 219, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 102, 255, 1) 0%, rgba(3, 39, 219, 1) 100%);
+    background: linear-gradient(to right, rgba(0, 102, 255, 1) 0%, rgba(3, 39, 219, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0066ff', endColorstr='#0327db', GradientType=1);*/
+background: #0A2E3A; /* fallback for old browsers */
+background: -webkit-linear-gradient(127deg, #096686 0%, #07222d 36%, #094E66 66%, #07222d 100%); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(127deg, #096686 0%, #07222d 36%, #094E66 66%, #07222d 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+p {
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+}
+
+/*#logo-header {
+    width: 814px;
+    height: 657px;
+    -webkit-transform: translateX(-90px);
+    -moz-transform: translateX(-90px);
+    -o-transform: translateX(-90px);
+    display: inline-block;
+}*/
+
+.orange_span {
+    color: #FFAB00;
+}
+
+.title {
+    font-family: "Montserrat", Avenir Next, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+}
+
+#hello {
+    display: inline-block;
+    position: absolute;
+    font-size: 36px;
+    right: 235px;
+    top: 260px;
+    z-index: 0;
+}
+#logo_j{
+  width:27.38vw;
+  position:absolute;
+  left:-7.1vw;
+}
+#logo_p{
+  position:absolute;
+  width:27.38vw;
+  left:29.3vw;
+
+}
+.introducing {
+    box-sizing: border-box;
+    width: 55.3vw;
+    height: 210vh;
+    border-left: 5.38vw solid #FFAB00;
+    border-bottom: 5.38vw solid #FFAB00;
+    margin-left: 22.1vw;
+    padding-top: 130vh;
+    padding-left: 5vw;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.introducing p {
+    margin-top: 9vh;
+    font-family: 'Open Sans',
+    Avenir Next,
+    sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    font-size: 0.85em;
+    width: 40vw;
+}
+
+.jp_hooks {
+    margin-top: 8vh;
+    height: 7vh;
+    width: 55%;
+}
+
+.hooks_one {
+    box-sizing: border-box;
+    border-top: 1.3vh solid white;
+    border-left: 1.3vh solid white;
+    height: 100%;
+    width: 6.7%;
+    float: left;
+}
+
+.hooks_two {
+    box-sizing: border-box;
+    border-bottom: 1.3vh solid white;
+    border-right: 1.3vh solid white;
+    height: 100%;
+    width: 6.7%;
+    float: right;
+}
+
+.left-deco:after,
+.left-deco:before {
+    content: "";
+    display: block;
+    height: 45%;
+    background-color: white;
+    width: 5.38vw;
+    position: absolute;
+    left: -27.4vw;
+    bottom: -5.38vw;
+    transition: ease-in-out 0.25s;
+}
+
+.left-deco:before {
+    left: -16.35vw;
+    height: 35%;
+}
+
+.project {
+    box-sizing: border-box;
+    width: 55.3vw;
+    height: 97vh;
+    margin-left: 22.1vw;
+    padding-top: 2vh;
+    border-right: 5.38vw solid #FFAB00;
+    border-bottom: 5.38vw solid #FFAB00;
+}
+
+.project h2 {
+    margin-bottom: 4vh;
+    margin-left: 25vw;
+    display: inline-block;
+}
+
+.project_li {
+    height: 5.38vw;
+    background-color: white;
+    width: 80vw;
+    margin-bottom: 8vh;
+    list-style-type: none;
+    margin-left: -40vw;
+    transition: ease-in-out 0.25s;
+    cursor: pointer;
+}
+
+.contact {
+    width: 30.3vw;
+    height: 80vh;
+    margin-left: 22.1vw;
+    padding-top: 3vh;
+    border-left: 5.38vw solid #FFAB00;
+    border-bottom: 5.38vw solid #FFAB00;
+    box-sizing: border-box;
+    padding-left: 5vw;
+}
+
+.contact h2 {
+    width: inherit;
+}
+
+.sendMail-form input,
+.sendMail-form textarea {
+    padding-left: 3%;
+    border: none;
+    font-family: Avenir Next, sans-serif;
+    color: #A6A6A6;
+    font-size: 0.875em;
+    transition: ease-in-out 0.25s;
+}
+
+.sendMail-form input:hover,
+.sendMail-form textarea:hover,
+.project_li:hover,
+.li_nav:hover {
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.40);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.40);
+}
+
+.sendMail-form input:focus,
+.sendMail-form textarea:focus {
+    outline: none;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.40);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.40);
+}
+
+.sendMail-form {
+    width: 54vw;
+}
+
+.sendMail-form textarea {
+    resize: none;
+    padding-top: 3%;
+}
+
+#firstName {
+    width: 20%;
+    display: inline-block;
+    height:5vh;
+}
+
+#lastName {
+    width: 20%;
+    display: inline-block;
+    margin-left: 5%;
+    height:5vh;
+}
+
+#email {
+    width: 38.72%;
+    float:right;
+    display: inline-block;
+    height:5vh;
+}
+
+#mailSubject {
+    width: 97%;
+    margin-top: 5%;
+    height:5vh;
+}
+
+#submit_button {
+    padding-left:3 !important;
+    text-align: center;
+    float: right;
+    height: 7vh;
+    font-family: Avenir Next, sans-serif;
+    color: white;
+    cursor: pointer;
+    background-color: #FFAB00;
+}
+
+textarea {
+    width: 97%;
+    height: 20vh;
+    margin-top: 5% !important;
+}
+
+.gradient {
+    width: 5.38vw;
+    height: 30vh;
+    margin-left: 47.05vw;
+    background: rgba(255, 170, 0, 1);
+    background: -moz-linear-gradient(top, rgba(255, 170, 0, 1) 26%, rgba(231, 56, 39, 0) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(26%, rgba(255, 170, 0, 1)), color-stop(100%, rgba(231, 56, 39, 0)));
+    background: -webkit-linear-gradient(top, rgba(255, 170, 0, 1) 26%, rgba(231, 56, 39, 0) 100%);
+    background: -o-linear-gradient(top, rgba(255, 170, 0, 1) 26%, rgba(231, 56, 39, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 170, 0, 1) 26%, rgba(231, 56, 39, 0) 100%);
+    background: linear-gradient(to bottom, rgba(255, 170, 0, 1) 26%, rgba(231, 56, 39, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffaa00', endColorstr='#e73827', GradientType=0);
+}

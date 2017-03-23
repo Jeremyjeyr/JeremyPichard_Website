@@ -1,0 +1,200 @@
+/* Menu Burger */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,700');
+#nav-icon4 {
+    width: 40px;
+    height: 28px;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    cursor: pointer;
+    line-height: 0px;
+}
+
+#nav-icon4 span {
+    position: absolute;
+    display: block;
+    height: 6px;
+    width: 100%;
+    height: 20%;
+    background: white;
+    opacity: 1;
+    right: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#span2 {
+    width: 80% !important;
+    margin-top: -5px;
+}
+
+#span3 {
+    width: 55% !important;
+    margin-top: -10px;
+}
+
+#nav-icon4 #span1 {
+    top: 0px;
+    -webkit-transform-origin: center right;
+    -moz-transform-origin: center right;
+    -o-transform-origin: center right;
+    transform-origin: center right;
+}
+
+#nav-icon4 #span2 {
+    top: 18px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#nav-icon4 #span3 {
+    top: 36px;
+    -webkit-transform-origin: center right;
+    -moz-transform-origin: center right;
+    -o-transform-origin: center right;
+    transform-origin: center right;
+}
+
+#nav-icon4.open #span1 {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: -3px;
+    left: 9px;
+}
+
+#nav-icon4.open #span2 {
+    width: 0%;
+    transform: translateX(50px);
+    opacity: 0;
+}
+
+#nav-icon4.open #span3 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 100% !important;
+    top: 35px;
+    left: 9px;
+}
+
+#nav-icon4.open {
+    margin-right: 13px;
+    width: -50%;
+    height: -50%;
+}
+
+
+/* End Menu Burger */
+
+
+/* Menu */
+.language_icon{
+  position:fixed;
+  z-index:999;
+  right:4.5vw;
+  top: 100px;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  opacity:0.5;
+  text-decoration: underline;
+}
+.language_icon.open{
+  opacity:1;
+  -webkit-transform: translateX(450px);
+  -moz-transform: translateX(450px);
+  -o-transform: translateX(450px);
+  transform: translateX(450px);
+}
+#ul_nav {
+    position: fixed;
+    z-index: 999;
+    display: inherit;
+    right: 0;
+    width: 450px;
+    top: 100px;
+    height: auto;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    -webkit-transform: translateX(450px);
+    -moz-transform: translateX(450px);
+    -o-transform: translateX(450px);
+    transform: translateX(450px);
+}
+
+#ul_nav li a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', Avenir Next, sans-serif;
+    padding-left: 100px;
+    font-weight: normal;
+    display: block;
+    color: #0C485E;
+}
+
+.li_nav {
+    display: block;
+    list-style-type: none;
+    height: 65px;
+    width: 450px;
+    background-color: white;
+    margin-top: 50px;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    opacity: 0;
+    -webkit-transform: translateX(450px);
+    -moz-transform: translateX(450px);
+    -o-transform: translateX(450px);
+    transform: translateX(450px);
+    line-height: 65px;
+    text-decoration: none;
+    font-family: 'Roboto', Avenir Next, sans-serif;
+    font-size: 20px;
+    color: #0C485E;
+    position: relative;
+    z-index: 1000;
+}
+
+.li_nav.open {
+    opacity: 1;
+    -webkit-transform: translateX(-140px);
+    -moz-transform: translateX(-140px);
+    -o-transform: translateX(-140px);
+    transform: translateX(-140px);
+}
+
+.li_nav.open:hover {
+    transform: translateX(-28vw);
+    -webkit-transform: translateX(-28vw);
+    -moz-transform: translateX(-28vw);
+    -o-transform: translateX(-28vw-10px);
+}
+
+.menu_nav {
+    position: relative;
+    z-index: 9999;
+}
